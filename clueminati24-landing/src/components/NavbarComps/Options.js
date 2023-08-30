@@ -1,23 +1,29 @@
-import Link from "next/link";
+import { Link } from "react-scroll";
 import React from "react";
 
 const Options = () => {
   return (
     <div
       id="proxima"
-      className=" flex flex-col text-[#AA9E8B] text-sm font-bold tracking-wider gap-2 items-end"
+      className=" flex flex-col text-[#AA9E8B] text-sm font-bold tracking-wider gap-2 items-end  z-40 cursor-default"
     >
       <div className="group transition ease-in-out">
         <Link
-          href="#about"
-          className=" absolute origin-top transition-transform duration-200 ease-in-out group-hover:scale-y-0"
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={-5}
+          className=" absolute origin-top transition-transform duration-500 ease-in-out group-hover:scale-y-0"
           style={{ transitionDelay: "1ms" }}
         >
           ABOUT EVENT
         </Link>
         <Link
-          href="#about"
-          className=" origin-bottom transition-transform duration-200 ease-in-out scale-y-0 group-hover:scale-y-100"
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={-5}
+          className=" origin-bottom transition-transform duration-500 ease-in-out scale-y-0 group-hover:scale-y-100"
           style={{ transitionDelay: "1ms" }}
         >
           ABOUT EVENT
@@ -25,15 +31,21 @@ const Options = () => {
       </div>
       <div className="group transition ease-in-out">
         <Link
-          href="#timeline"
-          className=" absolute origin-top transition-transform duration-200 ease-in-out group-hover:scale-y-0"
+          to="timeline"
+          spy={true}
+          smooth={true}
+          offset={-5}
+          className=" absolute origin-top transition-transform duration-500 ease-in-out group-hover:scale-y-0"
           style={{ transitionDelay: "1ms" }}
         >
           TIMELINE
         </Link>
         <Link
-          href="#timeline"
-          className=" origin-bottom transition-transform duration-200 ease-in-out scale-y-0 group-hover:scale-y-100"
+          to="timeline"
+          spy={true}
+          smooth={true}
+          offset={-5}
+          className=" origin-bottom transition-transform duration-500 ease-in-out scale-y-0 group-hover:scale-y-100"
           style={{ transitionDelay: "1ms" }}
         >
           TIMELINE
@@ -41,15 +53,21 @@ const Options = () => {
       </div>
       <div className="group transition ease-in-out">
         <Link
-          href="#prizes"
-          className=" absolute origin-top transition-transform duration-200 ease-in-out group-hover:scale-y-0"
+          to="prizes"
+          spy={true}
+          smooth={true}
+          offset={-5}
+          className=" absolute origin-top transition-transform duration-500 ease-in-out group-hover:scale-y-0"
           style={{ transitionDelay: "1ms" }}
         >
           PRIZES
         </Link>
         <Link
-          href="#prizes"
-          className=" origin-bottom transition-transform duration-200 ease-in-out scale-y-0 group-hover:scale-y-100"
+          to="prizes"
+          spy={true}
+          smooth={true}
+          offset={-5}
+          className=" origin-bottom transition-transform duration-500 ease-in-out scale-y-0 group-hover:scale-y-100"
           style={{ transitionDelay: "1ms" }}
         >
           PRIZES
@@ -57,15 +75,21 @@ const Options = () => {
       </div>
       <div className="group transition ease-in-out">
         <Link
-          href="#faqs"
-          className=" absolute origin-top transition-transform duration-200 ease-in-out group-hover:scale-y-0"
+          to="faqs"
+          spy={true}
+          smooth={true}
+          offset={-5}
+          className=" absolute origin-top transition-transform duration-500 ease-in-out group-hover:scale-y-0"
           style={{ transitionDelay: "1ms" }}
         >
           FAQs
         </Link>
         <Link
-          href="#faqs"
-          className=" origin-bottom transition-transform duration-200 ease-in-out scale-y-0 group-hover:scale-y-100"
+          to="faqs"
+          spy={true}
+          smooth={true}
+          offset={-5}
+          className=" origin-bottom transition-transform duration-500 ease-in-out scale-y-0 group-hover:scale-y-100"
           style={{ transitionDelay: "1ms" }}
         >
           FAQs

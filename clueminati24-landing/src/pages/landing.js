@@ -51,10 +51,10 @@ export default function Home() {
     <>
       <Head>
         <title>Clueminati</title>
-        <link rel="icon" href="/Favicon.png" />
+        <link rel="icon" href="/Favicon.svg" />
       </Head>
       <FixedNav />
-      <main className="sm:h-[640vh] h-[980vh] w-[100vw] relative cursor-default overflow-x-hidden">
+      <main className="h-[860vh] sm:max-h-[660vh] md:h-[610vh] w-[100vw] relative cursor-default overflow-x-hidden">
         <div className="absolute w-[100vw]">
           <Welcome />
           <About />
@@ -80,6 +80,7 @@ export default function Home() {
             <WelcomeMask />
             <AboutMask />
             <FillerMask />
+            <FillerMask2 />
             <FillerMask2 />
 
             <FillerMask2 />
