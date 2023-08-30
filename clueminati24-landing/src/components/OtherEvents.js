@@ -11,7 +11,7 @@ const OtherEvents = () => {
     setIsHovered2(!isHovered2);
   };
   return (
-    <div className="h-[60vh] w-[100vw] relative z-10">
+    <div className="h-[75vh] w-[100vw] relative z-10">
       <div
         id="proxima"
         className="uppercase text-[16px] md:text-[10px] text-[#B7AB98] mx-[13%] md:mx-[10%] mt-20 mb-10 tracking-[7px]"
@@ -24,7 +24,7 @@ const OtherEvents = () => {
           onMouseLeave={handleHover1}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
-          className={`rounded-full w-[280px] h-[280px] lg:w-[200px] lg:h-[200px] md:w-[150px] md:h-[150px] flex justify-center items-center ${
+          className={`rounded-full w-[280px] h-[280px] lg:w-[200px] lg:h-[200px] flex justify-center items-center ${
             isHovered1 ? "bg-green" : "bg-[#222222]"
           }`}
         >
@@ -96,7 +96,7 @@ const OtherEvents = () => {
           onMouseLeave={handleHover2}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
-          className={`rounded-full w-[280px] h-[280px] lg:w-[200px] lg:h-[200px] md:w-[150px] md:h-[150px] flex justify-center items-center ${
+          className={`rounded-full w-[280px] h-[280px] lg:w-[200px] lg:h-[200px] flex justify-center items-center ${
             isHovered2 ? "bg-green" : "bg-[#222222]"
           }`}
         >

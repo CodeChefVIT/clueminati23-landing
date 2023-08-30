@@ -14,7 +14,7 @@ const Faqs = ({ question, answer }) => {
         onMouseLeave={handleHover}
         className={`${
           isHovered
-            ? `bg-green duration-300 pb-24 sm:pb-10`
+            ? `bg-green duration-300 pb-14 sm:pb-10`
             : `bg-transparent duration-300`
         }`}
       >
@@ -65,7 +65,7 @@ const Faqs = ({ question, answer }) => {
               </motion.svg>
             </div>
           </div>
-          <motion.div className="text-[18px] w-[700px] md:text-[14px] sm:text-[12px] text-[#0d0d0d] font-semibold mt-3 sm:mt-0 ml-[175px] md:ml-[60px]">
+          <motion.div className="text-[18px] w-[700px] md:w-[300px] sm:w-[250px] md:text-[14px] sm:text-[12px] text-[#0d0d0d] font-semibold mt-3 sm:mt-0 ml-[175px] md:ml-[60px] lg:ml-[100px]">
             {answer}
           </motion.div>
         </div>

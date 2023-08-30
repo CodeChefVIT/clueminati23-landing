@@ -7,7 +7,7 @@ const TitleSVGMobile = () => {
       height="225"
       viewBox="0 0 916 225"
       fill="none"
-      className="w-[100vw] mx-auto mb-4 z-20 opacity-100"
+      className="w-[100vw] mx-auto mb-4 z-20 pr-4 opacity-100"
       xmlns="http://www.w3.org/2000/svg"
     >
       <g opacity="0.66" filter="url(#filter0_i_1_48)">
