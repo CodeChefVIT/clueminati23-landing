@@ -7,13 +7,13 @@ import Image from "next/image";
 
 const Socials = () => {
   return (
-    <div className="flex h-[50vh] mx-[13%] md:mx-[10%] py-5 gap-[7vw] mdl:ml-20 sm:ml-5 sm:justify-between sm:px-5">
+    <div className="flex h-[50vh] mx-[13%] md:mx-[10%] py-5 gap-[5vw] mdl:ml-20 sm:ml-5 sm:justify-between sm:px-5">
       {/* <div className="flex ml-40 py-10 border-t-2 border-grey h-[57vh] gap-20 "> */}
 
       <div className="flex flex-col justify-center lg:hidden">
         <Image src={logo} />
       </div>
-      <div className="flex flex-col justify-between py-20 items-center lg:py-2 sm:hidden">
+      <div className="flex flex-col justify-around py-16 items-center lg:py-2 sm:hidden">
         <div className="text-lg font-normal tracking-[5px] mdl:tracking-[2px] text-grey ">
           CODECHEF-VIT
         </div>
@@ -48,7 +48,7 @@ const Socials = () => {
           <TraingleSVG />
           <Link href={"/landing"}>
             <p className="text-4xl text-grey font-bold hover:text-green hover:duration-100 xl:text-2xl">
-              ClueMinati
+              Cook Off 8.0
             </p>
           </Link>
         </div>

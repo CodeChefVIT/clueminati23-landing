@@ -6,7 +6,7 @@ import useMousePosition from "@/utils/useMousePosition";
 const WelcomeMask = () => {
   const { setIsHoveredOnSmall } = useAppContext();
   return (
-    <div className="relative flex flex-col justify-center items-left gap-[8rem] py-16 px-36 h-[100vh] cursor-default   text-black bg-green text-6xl font-bold pt-96 pl-48">
+    <div className="relative flex flex-col justify-center items-left gap-[8rem] py-16 px-36 h-[100vh] cursor-default text-black bg-green text-6xl font-bold pt-96 pl-48">
       <p
         onMouseEnter={() => {
           setIsHoveredOnSmall(true);

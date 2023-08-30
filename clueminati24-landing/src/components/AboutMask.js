@@ -6,7 +6,7 @@ import useMousePosition from "@/utils/useMousePosition";
 const AboutMask = () => {
   const { setIsHovered, setIsHoveredOnSmall } = useAppContext();
   return (
-    <div className="min-h-[80vh] w-[100vw] relative cursor-default  text-black bg-green pt-32">
+    <div className="min-h-[80vh] sm:min-h-[60vh] w-[100vw] relative cursor-default  text-black bg-green pt-32">
       <div
         onMouseEnter={() => {
           setIsHoveredOnSmall(true);
