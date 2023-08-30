@@ -11,7 +11,7 @@ const Socials = () => {
       {/* <div className="flex ml-40 py-10 border-t-2 border-grey h-[57vh] gap-20 "> */}
 
       <div className="flex flex-col justify-center lg:hidden">
-        <Image src={logo} />
+        <Image alt ="" src={logo} />
       </div>
       <div className="flex flex-col justify-around py-16 items-center lg:py-2 sm:hidden">
         <div className="text-lg font-normal tracking-[5px] mdl:tracking-[2px] text-grey ">
