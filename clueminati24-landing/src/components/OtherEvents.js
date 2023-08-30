@@ -18,7 +18,7 @@ const OtherEvents = () => {
       >
         other events
       </div>
-      <div className="highlight flex w-full h-full justify-evenly items-center">
+      <div className="highlight flex sm:flex-col w-full h-full justify-evenly items-center">
         <motion.button
           onMouseEnter={handleHover1}
           onMouseLeave={handleHover1}

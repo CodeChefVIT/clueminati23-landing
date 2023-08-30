@@ -4,7 +4,7 @@ import FaqItem from "./faqItem"; // Adjust the path to match your folder structu
 
 const Faqs = () => {
   return (
-    <div className="min-h-[140vh] w-[100vw] relative z-10">
+    <div className="h-[140vh] md:h-[90vh] w-[100vw] relative z-10">
       <div
         id="proxima"
         className="uppercase text-[16px] md:text-[10px] mx-[13%] md:mx-[10%] text-[#B7AB98] mt-32 mb-10 tracking-[7px]"

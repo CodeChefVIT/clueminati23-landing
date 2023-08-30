@@ -7,17 +7,17 @@ import Image from "next/image";
 
 const Socials = () => {
   return (
-    <div className="flex h-[50vh] mx-[13%] md:mx-[10%] py-10 border-t-2 border-grey gap-[7vw] mdl:ml-20 sm:ml-5 sm:justify-between sm:px-5">
+    <div className="flex h-[50vh] mx-[13%] md:mx-[10%] py-5 gap-[7vw] mdl:ml-20 sm:ml-5 sm:justify-between sm:px-5">
       {/* <div className="flex ml-40 py-10 border-t-2 border-grey h-[57vh] gap-20 "> */}
 
       <div className="flex flex-col justify-center lg:hidden">
         <Image src={logo} />
       </div>
       <div className="flex flex-col justify-between py-20 items-center lg:py-2 sm:hidden">
-        <div className="text-lg font-normal tracking-[7px] mdl:tracking-[2px] text-grey ">
-          CODECHEF VIT
+        <div className="text-lg font-normal tracking-[5px] mdl:tracking-[2px] text-grey ">
+          CODECHEF-VIT
         </div>
-        <div className="text-lg font-normal tracking-[7px] mdl:tracking-[2px] text-grey ">
+        <div className="text-lg font-normal tracking-[5px] mdl:tracking-[2px] text-grey ">
           COOKOFF 8.0
         </div>
         <div className="z-10">
