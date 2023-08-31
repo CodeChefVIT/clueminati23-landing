@@ -17,6 +17,7 @@ body {
   user-select: revert;
   user-select: revert-layer;
   user-select: unset;
+
 }
 
 ::-webkit-scrollbar {
