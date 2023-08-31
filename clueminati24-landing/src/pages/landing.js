@@ -47,7 +47,7 @@ export default function Home() {
   });
   const { x, y } = useMousePosition();
 
-  const scrollLockPointVh = 745;
+  const scrollLockPointVh = 755;
 
   useEffect(() => {
     function handleScroll() {
