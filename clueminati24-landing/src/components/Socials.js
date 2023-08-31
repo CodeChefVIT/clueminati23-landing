@@ -52,7 +52,7 @@ const Socials = () => {
               Register
             </motion.button>
           </Link>
-        </div> */}
+        </div>
       </div>
       <div className="flex flex-col py-20 lg:py-2">
         <div className="text-lg font-normal tracking-[7px] text-grey mdl:tracking-[2px]">
@@ -69,7 +69,6 @@ const Socials = () => {
               COOK OFF 8.0
             </p>
           </a>
-          </a>
         </div>
         <div className="flex pt-5 items-center gap-5 z-10">
           <TraingleSVG />
@@ -81,7 +80,6 @@ const Socials = () => {
             <p className="text-4xl text-grey font-bold hover:text-orange hover:duration-100 xl:text-2xl">
               TECH TALKS 4.0
             </p>
-          </a>
           </a>
         </div>
 
