@@ -38,7 +38,11 @@ const Socials = () => {
         </div>
         <div className="flex pt-5 items-center gap-5 z-10">
           <TraingleSVG />
-          <a href="https://techtalks.codechefvit.com" target="__blank" rel="noopener noreferrer" >
+          <a
+            href="https://techtalks.codechefvit.com"
+            target="__blank"
+            rel="noopener noreferrer"
+          >
             <p className="text-4xl md:text-xl text-grey font-bold hover:text-green hover:duration-100 xl:text-2xl">
               Tech Talks 4.0
             </p>
@@ -46,7 +50,11 @@ const Socials = () => {
         </div>
         <div className="flex pt-5 items-center gap-5 z-10">
           <TraingleSVG />
-          <a href="https://cookoff.codechefvit.com" target="__blank" rel="noopener noreferrer" >
+          <a
+            href="https://cookoff.codechefvit.com"
+            target="__blank"
+            rel="noopener noreferrer"
+          >
             <p className="text-4xl md:text-xl text-grey font-bold hover:text-green hover:duration-100 xl:text-2xl">
               Cook Off 8.0
             </p>
