@@ -15,20 +15,20 @@ const BurgerSVG = ({ setIsToggled }) => {
       <path
         d="M164 195H453"
         stroke="black"
-        stroke-width="40"
-        stroke-linecap="round"
+        strokeWidth="40"
+        strokeLinecap="round"
       />
       <path
         d="M164 308H453"
         stroke="black"
-        stroke-width="40"
-        stroke-linecap="round"
+        strokeWidth="40"
+        strokeLinecap="round"
       />
       <path
         d="M164 423H453"
         stroke="black"
-        stroke-width="40"
-        stroke-linecap="round"
+        strokeWidth="40"
+        strokeLinecap="round"
       />
     </svg>
   );
