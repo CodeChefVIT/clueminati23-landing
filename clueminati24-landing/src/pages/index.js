@@ -82,7 +82,7 @@ const Index = () => {
     <>
       <Head>
         <title>Clueminati</title>
-        <link rel="icon" href="/Favicon.png" />
+        <link rel="icon" href="/Favicon.svg" />
       </Head>
 
       {/* body container */}

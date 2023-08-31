@@ -4,20 +4,9 @@
 
 body {
   background-color: #0D0D0D;
-  /* Keyword values */
+  -webkit-user-select: none;
+  -ms-user-select: none;
   user-select: none;
-  user-select: auto;
-  user-select: text;
-  user-select: contain;
-  user-select: all;
-
-  /* Global values */
-  user-select: inherit;
-  user-select: initial;
-  user-select: revert;
-  user-select: revert-layer;
-  user-select: unset;
-
 }
 
 ::-webkit-scrollbar {
