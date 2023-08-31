@@ -12,7 +12,7 @@ const Welcome = () => {
   return (
     <div
       id="welcome"
-      className="h-[100vh] sm:h-[80vh] w-[100vw] cursor-default flex flex-col justify-center"
+      className=" highlight h-[100vh] sm:h-[80vh] w-[100vw] cursor-default flex flex-col justify-center"
     >
       {isMid && <TitleSVGMobile />}
       {!isMid && <TitleSVG />}

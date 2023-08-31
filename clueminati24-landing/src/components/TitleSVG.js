@@ -7,8 +7,8 @@ const TitleSVG = () => {
       height="206"
       viewBox="0 0 887 206"
       fill="none"
-      className="w-[75vw] mx-auto mb-32 z-20 pr-10 opacity-100 sm:opacity-0 "
-      whileHover={{ scale: 1.1 }}
+      className="highlight w-[75vw] mx-auto mb-32 z-20 pr-10 opacity-100 sm:opacity-0 "
+      whileTap={{ scale: 1.1 }}
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
