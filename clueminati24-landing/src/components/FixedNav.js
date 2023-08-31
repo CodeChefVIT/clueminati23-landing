@@ -79,7 +79,7 @@ const FixedNav = () => {
                 r="303.5"
                 fill="#9bd129"
                 stroke="black"
-                stroke-width="10"
+                strokeWidth="10"
               />
               <path
                 d="M308 142L221.397 292H394.603L308 142ZM293 277V475H323V277H293Z"

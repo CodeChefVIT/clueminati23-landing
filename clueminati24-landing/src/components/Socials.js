@@ -20,7 +20,7 @@ const Socials = () => {
         <div className="text-lg font-normal tracking-[5px] mdl:tracking-[2px] text-grey py-7">
           CLUEMINATI
         </div>
-        <div className="z-10">
+        {/* <div className="z-10">
           <Link href={"/landing"}>
             <motion.button
               className="rounded-[4px] w-[200px] py-2 px-12 bg-green text-black sm:font-semibold font-bold sm:border-dark-grey hover:text-[#fff] text-[18px] md:text-[13px] hover:font-semibold"
@@ -30,7 +30,7 @@ const Socials = () => {
               Register
             </motion.button>
           </Link>
-        </div>
+        </div> */}
       </div>
       <div className="flex flex-col py-20 lg:py-2">
         <div className="text-lg md:text-base font-normal tracking-[7px] text-grey mdl:tracking-[2px]">
@@ -38,19 +38,19 @@ const Socials = () => {
         </div>
         <div className="flex pt-5 items-center gap-5 z-10">
           <TraingleSVG />
-          <Link href={"/landing"}>
+          <a href="https://techtalks.codechefvit.com" target="__blank" rel="noopener noreferrer" >
             <p className="text-4xl md:text-xl text-grey font-bold hover:text-green hover:duration-100 xl:text-2xl">
               Tech Talks 4.0
             </p>
-          </Link>
+          </a>
         </div>
         <div className="flex pt-5 items-center gap-5 z-10">
           <TraingleSVG />
-          <Link href={"/landing"}>
+          <a href="https://cookoff.codechefvit.com" target="__blank" rel="noopener noreferrer" >
             <p className="text-4xl md:text-xl text-grey font-bold hover:text-green hover:duration-100 xl:text-2xl">
               Cook Off 8.0
             </p>
-          </Link>
+          </a>
         </div>
       </div>
       <div className="flex flex-col py-20 lg:py-2">
