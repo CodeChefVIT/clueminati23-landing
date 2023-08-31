@@ -37,7 +37,8 @@ body {
   mask-repeat: no-repeat;
 
   -webkit-mask-size: 250px 250px;
-  mask-size: 250px 250px
+  mask-size: 250px 250px;
+
 }
 
 .container {
