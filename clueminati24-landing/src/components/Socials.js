@@ -18,7 +18,7 @@ const Socials = () => {
           CODECHEF-VIT
         </div>
         <div className="text-lg font-normal tracking-[5px] mdl:tracking-[2px] text-grey py-7">
-          COOKOFF 8.0
+          CLUEMINATI
         </div>
         <div className="z-10">
           <Link href={"/landing"}>
