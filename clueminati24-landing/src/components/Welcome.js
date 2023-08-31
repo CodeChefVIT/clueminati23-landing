@@ -16,11 +16,11 @@ const Welcome = () => {
     >
       {isMid && <TitleSVGMobile />}
       {!isMid && <TitleSVG />}
-      <div className="flex justify-center z-10">
+      <div className="highlight flex justify-center z-10">
         <Link href={"/landing"}>
           <motion.button
             className="rounded-full w-[200px] md:w-[150px] py-2 px-12 bg-green sm:bg-green text-black sm:font-semibold font-bold sm:border-dark-grey hover:text-[#fff] text-[18px] md:text-[13px] hover:font-semibold"
-            whileTap={{ scale: 1 }}
+            whileTap={{ scale: 0.9 }}
             whileHover={{ scale: 1.1 }}
           >
             Register
