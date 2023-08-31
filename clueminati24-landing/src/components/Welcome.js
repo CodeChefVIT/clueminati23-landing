@@ -17,7 +17,7 @@ const Welcome = () => {
       {isMid && <TitleSVGMobile />}
       {!isMid && <TitleSVG />}
       <div className="highlight flex justify-center z-10">
-        <Link href="https://gravitas.vit.ac.in/events">
+        <Link href="https://gravitas.vit.ac.in/eventdetails?event=evt_fcb5301c84764e87a77740ec9ac8d8d3&image=https://i.imgur.com/QajmOMI.jpg">
           <motion.button
             className="rounded-full w-[200px] md:w-[150px] py-2 px-12 bg-green sm:bg-green text-black sm:font-semibold font-bold sm:border-dark-grey hover:text-[#fff] text-[18px] md:text-[13px] hover:font-semibold"
             whileTap={{ scale: 0.9 }}
