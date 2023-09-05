@@ -16,7 +16,7 @@ const Socials = () => {
 
   return (
     <div
-      className="flex mx-[13%] md:mx-[10%] py-10 h-[330px] gap-[7vw] mdl:ml-20 sm:ml-5 sm:justify-between sm:px-5"
+      className="flex mx-[13%] md:mx-[10%] py-10 h-[330px] gap-[7vw] md:ml-20 sm:ml-5 sm:justify-between sm:px-5"
       id="socials"
     >
       {/* <div className="flex ml-40 py-10 border-t-2 border-grey h-[57vh] gap-20 "> */}
@@ -24,7 +24,7 @@ const Socials = () => {
       <div className="flex flex-col justify-center lg:hidden">
         <Image alt="" src={logo} />
       </div>
-      <div className="flex flex-col justify-around py-20 items-center lg:py-2 sm:hidden">
+      <div className="flex flex-col justify-around lg:justify-start py-20 items-center lg:items-start w-[200px] lg:py-2 sm:hidden">
         <div className="text-lg font-normal tracking-[6px] mdl:tracking-[2px] text-grey pb-3 ">
           CODECHEF VIT
         </div>
