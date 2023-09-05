@@ -82,7 +82,6 @@ const OtherEvents = () => {
                 height="338"
                 viewBox="0 0 338 338"
                 fill="none"
-                className="lg:w-[90px] md:w-[70px]"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <g clip-path="url(#clip0_1_2)">
