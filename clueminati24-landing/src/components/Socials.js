@@ -16,7 +16,7 @@ const Socials = () => {
 
   return (
     <div
-      className="flex mx-[13%] md:mx-[10%] py-10 border-t-2 border-grey h-[330px] gap-[7vw] mdl:ml-20 sm:ml-5 sm:justify-between sm:px-5"
+      className="flex mx-[13%] md:mx-[10%] py-10 h-[330px] gap-[7vw] mdl:ml-20 sm:ml-5 sm:justify-between sm:px-5"
       id="socials"
     >
       {/* <div className="flex ml-40 py-10 border-t-2 border-grey h-[57vh] gap-20 "> */}
@@ -24,7 +24,7 @@ const Socials = () => {
       <div className="flex flex-col justify-center lg:hidden">
         <Image alt="" src={logo} />
       </div>
-      <div className="flex flex-col justify-between py-20 items-center lg:py-2 sm:hidden">
+      <div className="flex flex-col justify-around py-20 items-center lg:py-2 sm:hidden">
         <div className="text-lg font-normal tracking-[6px] mdl:tracking-[2px] text-grey pb-3 ">
           CODECHEF VIT
         </div>
@@ -42,17 +42,6 @@ const Socials = () => {
             </motion.button>
           </Link>
         </div> */}
-        <div className="z-10 py-3">
-          <Link href={"/landing"}>
-            <motion.button
-              className="rounded-[4px] w-[200px] py-2 px-12 bg-green text-black sm:font-semibold font-bold sm:border-dark-grey hover:text-[#fff] text-[18px] md:text-[13px] hover:font-semibold"
-              whileTap={{ scale: 1 }}
-              whileHover={{ scale: 1.1 }}
-            >
-              Register
-            </motion.button>
-          </Link>
-        </div>
       </div>
       <div className="flex flex-col py-20 lg:py-2">
         <div className="text-lg font-normal tracking-[7px] text-grey mdl:tracking-[2px]">

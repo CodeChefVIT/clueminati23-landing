@@ -11,7 +11,7 @@ const Prizes = () => {
   return (
     <div
       id="prizes"
-      className="h-[95vh] sm:h-[67vh] w-[100vw] text-grey flex flex-col items-start justify-between gap-[3.1rem] py-20"
+      className="h-[100vh] sm:h-[67vh] w-[100vw] text-grey flex flex-col items-start justify-between gap-[3.1rem] py-20"
     >
       <div
         id="proxima"

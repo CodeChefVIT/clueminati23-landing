@@ -47,21 +47,21 @@ export default function Home() {
   });
   const { x, y } = useMousePosition();
 
-  const scrollLockPointVh = 755;
+  // const scrollLockPointVh = 800;
 
-  useEffect(() => {
-    function handleScroll() {
-      if (window.scrollY >= window.innerHeight * (scrollLockPointVh / 100)) {
-        window.scrollTo(0, window.innerHeight * (scrollLockPointVh / 100));
-      }
-    }
+  // useEffect(() => {
+  //   function handleScroll() {
+  //     if (window.scrollY >= window.innerHeight * (scrollLockPointVh / 100)) {
+  //       window.scrollTo(0, window.innerHeight * (scrollLockPointVh / 100));
+  //     }
+  //   }
 
-    window.addEventListener("scroll", handleScroll);
+  //   window.addEventListener("scroll", handleScroll);
 
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, []);
 
   return (
     <>
@@ -70,7 +70,7 @@ export default function Home() {
         <link rel="icon" href="/Favicon.svg" />
       </Head>
       <FixedNav />
-      <main className="content h-[980vh] sm:max-h-[660vh] md:h-[610vh] w-[100vw] relative cursor-default overflow-x-hidden">
+      <main className="content h-[940vh] sm:h-[660vh] md:h-[610vh] w-[100vw] relative cursor-default overflow-x-hidden">
         <div className="absolute w-[100vw]">
           <Welcome />
           <About />
