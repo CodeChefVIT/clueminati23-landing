@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="min-h-[80vh] sm:min-h-[60vh] w-[100vw] relative cursor-default "
+      className="min-h-[90vh] sm:min-h-[60vh] w-[100vw] relative cursor-default "
     >
       <div
         id="proxima"

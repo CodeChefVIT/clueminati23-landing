@@ -40,7 +40,7 @@ const Countdown = () => {
   }, []);
 
   return (
-    <div className="h-[70vh] md:h-[70vh] w-[80vw] relative z-50">
+    <div className="h-[90vh] md:h-[70vh] w-[80vw] relative z-50">
       <div
         id="proxima"
         className="uppercase text-[16px] md:text-[10px] mx-[17%] md:mx-[10%] text-[#B7AB98] mt-28 mb-10 tracking-[7px]"
