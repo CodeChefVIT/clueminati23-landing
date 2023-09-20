@@ -1,5 +1,3 @@
-// pages/PrivacyPolicy.js
-
 import Head from "next/head";
 
 const PrivacyPolicy = () => {
@@ -19,11 +17,11 @@ const PrivacyPolicy = () => {
         <section className="bg-white rounded-lg shadow-md p-6 mb-4">
           <h2 className="text-xl font-semibold mb-4">1. Introduction</h2>
           <p>
-            Welcome to Clueminati - Treasure Hunt Event Android App ("App").
-            This Privacy Policy is designed to help you understand how we
-            collect, use, disclose, and safeguard your personal information when
-            you use our App. Your privacy is important to us, and we are
-            committed to protecting your personal information.
+            Welcome to Clueminati - Treasure Hunt Event Android App (App). This
+            Privacy Policy is designed to help you understand how we collect,
+            use, disclose, and safeguard your personal information when you use
+            our App. Your privacy is important to us, and we are committed to
+            protecting your personal information.
           </p>
         </section>
 
@@ -114,7 +112,7 @@ const PrivacyPolicy = () => {
         </section>
 
         <section className="bg-white rounded-lg shadow-md p-6 mb-4">
-          <h2 className="text-xl font-semibold mb-4">7. Children's Privacy</h2>
+          <h2 className="text-xl font-semibold mb-4">7. Children Privacy</h2>
           <p>
             Our App is not intended for use by individuals under the age of 13.
             We do not knowingly collect personal information from children under
