@@ -19,7 +19,7 @@ const About = () => {
       <div className="body mx-[13%] md:mx-[10%] flex flex-col justify-center items-stretch gap-[8rem] py-16 text-grey">
         <p
           id="proxima"
-          className="text-justify text-4xl tracking-wide font-bold leading-[1.5] lg:text-1xl lg:tracking-wide lg:font-semibold sm:text-lg sm:tracking-wide sm:font-semibold"
+          className="text-justify text-4xl tracking-wide font-bold leading-[1.5] lg:text-xl lg:tracking-wide lg:font-semibold sm:text-lg sm:tracking-wide sm:font-semibold"
         >
           Welcome to <span className="text-green">Clueminati</span> – the
           ultimate fusion of intellect, technology, and adventure! Your chance

@@ -138,7 +138,7 @@ const Index = () => {
         {/* cursor div */}
         {isDesktop && (
           <motion.div
-            className="bg-orange w-10 h-10 fixed rounded-full left-0 top-0 -z-10"
+            className="bg-green w-10 h-10 fixed rounded-full left-0 top-0 -z-10"
             variants={cursorVariants}
             // animate="default"
             animate={currentVaraint}
