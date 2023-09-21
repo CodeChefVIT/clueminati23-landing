@@ -7,7 +7,7 @@ import Timeline from "@/components/Timeline";
 import Countdown from "@/components/Countdown";
 import Prizes from "@/components/Prizes";
 import Faqs from "@/components/Faqs";
-import RegisterNow from "@/components/RegisterNow";
+
 import OtherEvents from "@/components/OtherEvents";
 import Socials from "@/components/Socials";
 import Welcome from "@/components/Welcome";
@@ -75,7 +75,6 @@ export default function Home() {
           <Welcome />
           <About />
           <Timeline />
-          <RegisterNow />
           <Prizes />
           <Countdown />
           <OtherEvents />
